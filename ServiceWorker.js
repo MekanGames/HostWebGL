@@ -1,9 +1,9 @@
 const cacheName = "MekanGames-Human Tower-0.1.0";
 const contentToCache = [
-    "Build/7b1f439904e6a64f66ec40ffc7584ad3.loader.js",
+    "Build/378b5de2c38ae4003be943691eb79ecd.loader.js",
     "Build/a15516e7cb18aa8c6e34614753436024.framework.js",
-    "Build/ead24742af6a96bdd9c3dde535a86ed6.data",
-    "Build/e922a15cf0d2d2225c018b148d85aac0.wasm",
+    "Build/bbff1a614aaf9fd89260e409743ed3d5.data",
+    "Build/f34f429cbd04e59eda086ef6824a5c6f.wasm",
     "TemplateData/style.css"
 
 ];
