@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=900 height=600 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/ac1dd3febb07097a62c08c7bbe7c2fe9.loader.js";
+      var loaderUrl = buildUrl + "/2ec2e655d88e40ae3e0cfa8629de9700.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/e869a40f27684f48cc380c9f5f719561.data",
-        frameworkUrl: buildUrl + "/8d21b1a93c0ea05516b905f419ca9eee.framework.js",
-        codeUrl: buildUrl + "/163040678e7a7033174711468ddc61b4.wasm",
+        dataUrl: buildUrl + "/a911fa32fe84ebeb044b0414071338c3.data",
+        frameworkUrl: buildUrl + "/7043b96851df9852024522840e044793.framework.js",
+        codeUrl: buildUrl + "/946f72ee4c249cf47648a2be5e69c07b.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "MekanGames",
         productName: "Human Tower",
@@ -98,8 +98,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "900px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1920px";
+        canvas.style.height = "1080px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
